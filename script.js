@@ -2,6 +2,8 @@ let btnMenu = document.getElementById('btn-menu')
 let menu = document.getElementById('menu-mobile')
 let overlay = document.getElementById('overlay')
 
+
+//mennu mobile
 btnMenu.addEventListener('click',()=>{
     menu.classList.add('abrir-menu')
     overlay.classList.add('abrir-menu')
@@ -20,7 +22,7 @@ overlay.addEventListener('click',()=>{
 
 
 
-
+//botão topo site
 document.addEventListener('DOMContentLoaded', function () {
     // Exibir o botão quando a página for rolada para baixo
     window.addEventListener('scroll', function () {

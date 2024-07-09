@@ -513,7 +513,8 @@ footer .line-footer .btn-social button{
 }
 
 .btn-topo-site:hover{
-    background-color: #d40813;
+    transform: scale(1.05);
+    box-shadow: 0 0 8px #00ff08 ;
 }
 
 
